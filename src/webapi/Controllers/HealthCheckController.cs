@@ -18,7 +18,8 @@ public class HealthCheckController : ControllerBase
     {
         return new HealthCheck()
         {
-            Status = "Ok"
+            Status = "Ok",
+            Message = "Hello world"
         };
     }
 }
